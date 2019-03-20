@@ -25,8 +25,8 @@ Simple events API with out of the box Laravel.
 1. Clone this repo into an empty project
 2. Create a Database (call it what you like)
 3. Modify the `.env.example` file to reflect your database user and name (remove homestead refs) and then save this file as simply `.env` 
-4. Open your terminal app of choice, CD to the newly cloned directory and run the following command
+4. Open your terminal app of choice, CD to the newly cloned directory and run the following commands
 	1. `php artisan migrate`
 	2. `php artisan db:seed --EventsTableSeeder`	
 	3. `php artisan make:auth`
-5. Open the follow endpoint address in a browser: https://demo.dev/api/events to remove the paginted events API
+5. Open the follow endpoint address in a browser: https://demo.dev/api/events to review the paginted events API
