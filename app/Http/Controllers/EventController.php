@@ -40,7 +40,12 @@ class EventController extends Controller
      */
     public function show($id)
     {
-        //
+        // grab one event
+        $event = Events::findOrFail($id);
+
+        // reeturn one article as a resource
+        return new EventResource($event);
+
     }
 
     /**
