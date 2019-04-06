@@ -34,6 +34,6 @@ Simple events API with out of the box Laravel.
 	2. `php artisan db:seed --class=EventsTableSeeder`	
 	3. optional: `php artisan make:auth`
 9. Review output using the following endpoints:
-	- https://demo.dev/events
-	- https://demo.dev/events/1
+	- https://demo.dev/api/events
+	- https://demo.dev/api/events/1
 10. Enjoy!
