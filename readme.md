@@ -11,11 +11,15 @@ Simple events API with out of the box Laravel.
  - Node.js
  - NPM
 
+### Optional 
+
+- Sequal Pro or Tables Plus database GUI's
+
 ## Local Environment Setup 
 
  - Make sure you have PHP >= 7.1
  - Make sure you have MySQL >= 5
- - 
+
 ** Note: if you don't have any of these configured on your machine... check out this tutorial.
 ( https://help.macstadium.com/articles/how-to-install-apache-mysql-and-php-using-homebrew-on-macos )
 
