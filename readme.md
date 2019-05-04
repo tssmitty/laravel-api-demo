@@ -28,12 +28,12 @@ Simple events API with out of the box Laravel.
 4. Create the app key by running `php artisan key:generate`
 5. Park your site and secure it by running `valet secure`
 6. Create a Database (call it what you like)
-7. Modify `.env` file to your newly database user and name (remove homestead refs) and then save this file
+7. Modify `.env.sample` file to your newly database user and name (remove homestead refs) and then save this file as `.env`
 8. Open your terminal app of choice, CD to the newly cloned directory and run the following commands
 	1. `php artisan migrate`
 	2. `php artisan db:seed --class=EventsTableSeeder`	
 	3. optional: `php artisan make:auth`
 9. Review output using the following endpoints:
-	- https://demo.dev/api/events
-	- https://demo.dev/api/events/1
+	- https://yourdir.dev/api/events
+	- https://yourdir.dev/api/events/1
 10. Enjoy!
